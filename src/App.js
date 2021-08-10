@@ -1,9 +1,10 @@
 import Home from './Components/Home/home'
-import 'bulma/css/bulma.min.css';
+import Home1 from './Components/Home/HomeBst'
+
 
 function App() {
   return (
-   <Home/>
+   <Home1/>
   );
 }
 
