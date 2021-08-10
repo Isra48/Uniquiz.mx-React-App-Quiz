@@ -95,7 +95,7 @@ class Login extends React.Component{
         <div className="forms-container">
             <div className="signin-signup">
                 <form action="#" className="sign-in-form">
-                    <h2 className="title">Ingresa</h2>
+                    <h2 className="title-login">Ingresa</h2>
                     <div className="input-field">
                         <FontAwesomeIcon icon={['fas', 'user']} style={{alignSelf: 'center', opacity: '0.4', marginLeft: '1.5em'}}/>
                         <input name="email" type="text" placeholder="E-mail" value={this.state.email} onChange={this.handleChange}/>
@@ -125,7 +125,7 @@ class Login extends React.Component{
 
                 </form>
                 <form action="#" className="sign-up-form">
-                    <h2 className="title">Registrate</h2>
+                    <h2 className="title-login">Registrate</h2>
                     <div className="input-field">
                         <i className="fas fa-user"></i>
                         <input id="name" type="text" placeholder="Nombre" />
