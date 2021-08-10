@@ -39,15 +39,15 @@ if (!firebase.apps.length) {
 
 class Login extends React.Component{
     state = {
-        containerClass: "container-fluid",
+        containerClass: "container-fluid login-container",
         email: "",
         password: "",
     }
     switchForm = e =>{
-        this.setState({containerClass:"container-fluid sign-up-mode"})
+        this.setState({containerClass:"container-fluid login-container sign-up-mode"})
     }
     switchForm2 = e =>{
-        this.setState({containerClass:"container-fluid"})
+        this.setState({containerClass:"container-fluid login-container"})
     }
     registrar = async () => {
         console.log('diste un click a registrar paps')

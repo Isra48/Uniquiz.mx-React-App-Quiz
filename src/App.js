@@ -4,7 +4,7 @@ import Home1 from './Components/Home/HomeBst'
 
 function App() {
   return (
-   <Login/>
+   <Home1/>
   );
 }
 
