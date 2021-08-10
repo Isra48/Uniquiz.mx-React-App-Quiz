@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 
 *{
@@ -6,6 +7,7 @@
     padding: 0%;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+  text-decoration: none !important;
 }
 
 
@@ -21,18 +23,22 @@
 .h1hero1{
     font-size: 52pt;
     font-weight: bold;
-   padding-left: .5em;
-   padding-right: .5em;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 13em;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
     line-height: 1em;
-    margin: .5em;
+    padding-right: 3em !important;
+    padding-left: 3em !important;
+    
+   
+
 
 
 }
 @media (max-width: 600px) {
     .h1hero1 {
-        font-size: 32pt;
+        font-size: 22pt;
     }
   }
 
@@ -41,31 +47,231 @@
 
 .h2hero2{
     
-    padding-top: 0;
-    padding-bottom: 0;
-    margin: 2em;
+  
     line-height: 1em;
-    font-size: 15pt;
-    padding-left: .5em;
-    padding-right: .5em;
+    font-size: 14pt;
+    font-weight: 300;
+    padding-right: 3em !important;
+    padding-left: 3em !important;
+    padding-bottom: .5em;
+    
     
 
 }
 
 .btnshero1{
-    margin: 1em;
+    margin-top: 2.5em !important;
+    margin-bottom: 3em;
+    text-align: center;
 }
 
+
+
+/*btns*/
+.btn-quiz{
+    background-color:#485fc7 !important;
+    color: #ffffff !important;
+
+}
+
+.btnvermas{
+    border-color:#ff3860 !important;
+    color: #ff3860!important;
+
+}
+
+.btnvermas:hover{
+    color: #ffffff!important;
+    background-color: #ff3860 !important;
+
+}
+
+
+/*margen entre btns*/
+.btns{
+    margin-left: .5em;
+    margin-right: .5em;
+   
+}
+
+.btnoutlined{
+    color: red !important;
+    background-color: none !important;
+  
+ 
+}
+
+
+
 .video{
-  max-width: 765px;
 
-  align-items: center;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 100% !important;
+  
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
 
+  .pabajovideo{
+      font-weight:300;
+      margin-bottom:2.5em !important ;
+      margin-top: 2.5em!important;
+
+  }
+
+
+
+
+
+/* contador de metricas*/
+.counterdiv{
+    background-color:#ff3860;
+    min-height: 200px;
+    text-align: center;
+    color: #fff !important;
+    padding-top: 3.5em !important;
+    padding-bottom: 2.5em !important;
+    font-weight: 300;
+    padding: 4em!important;
+   
+}
+.txtcounter{
+    font-size:1.2em;
 }
 
 
 
 /*Hero 2 */
+
+.colhero2{
+   padding: 2em !important;
+}
+
+.Quizate{
+    font-size: 3em;
+    text-align: right;
+    font-weight: bold;
+    margin: .5em;
+    margin-bottom: .5em;
+    margin-top: 3em;
+    padding:1.5em ;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.parrafohero2{
+    padding: 4.5em;
+    padding-top: 0.5em;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-bottom: 1.5em;
+    text-align: right;
+   
+    
+}
+.btnhero2{
+    text-align: right;
+    padding-right: 4.5em ;
+   
+    font-size: 1em;
+    margin:.5em !important;
+    
+}
+
+.divimgphone{
+    text-align: left;
+    margin-top: 2.5em !important;
+}
+.imgphone{
+    width: 88%;
+    
+}
+
+
+
+
+
+/*Banner apps mobile*/
+
+.stn-download {
+    color: #ffffff;
+    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+}
+
+
+.button.button-store {
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
+    font-size: 14px;
+    font-weight: 500;
+    color: #633991;
+    margin: 0.5rem;
+    padding: 0.7rem 1.6rem;
+    line-height: 1.8;
+    height: auto;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.button.button-store:hover {
+    color: #000000;
+    background-color: #faf6fb;
+}
+
+.button.button-store img {
+    margin-right: 0.4rem;
+    vertical-align: text-bottom;
+}
+
+
+/*Features */
+.copies-features{
+
+}
+
+.feature .feature-item .icon {
+    margin-bottom: 15px;
+  }
+  
+  .feature .feature-item .icon i {
+    font-size: 48px;
+    color: #7d71d3;
+  }
+  
+  .feature .feature-item .content h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .feature .feature-item:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  
+  @media (max-width: 768px) {
+    .feature .feature-item {
+      margin-bottom: 60px;
+    }
+  }
+  
+  .feature .app-screen {
+    margin: 20px 0;
+  }
+  
+  .feature .app-screen img {
+    max-height: 400px;
+  }
+  
+  
+  
+  
+  

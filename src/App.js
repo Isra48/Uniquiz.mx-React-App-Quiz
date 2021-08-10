@@ -1,5 +1,5 @@
-import Home from './Components/Home/home'
-import Login from './Components/Login/Login';
+import Login from './Components/Login/login';
+import Home1 from './Components/Home/HomeBst'
 
 
 function App() {
